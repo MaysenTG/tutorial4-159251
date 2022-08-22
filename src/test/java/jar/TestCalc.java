@@ -31,10 +31,17 @@ public class TestCalc
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testAdd()
     {
       Calc c = new Calc();
       
       assertEquals(c.add(1,2), 3);
+    }
+    
+    public void testSubtract()
+    {
+      Calc c = new Calc();
+      
+      assertEquals(c.subtract(5,1), 4);
     }
 }
